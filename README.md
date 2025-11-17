@@ -56,31 +56,6 @@ Node.js, Express, MongoDB, Mongoose, Multer, dotenv
 AI Engine:
 Google Gemini (via @google/genai)
 
-📁 Folder Structure
-ai-judge/
-│
-├── backend/
-│   ├── src/
-│   │   ├── server.js
-│   │   ├── config/db.js
-│   │   ├── models/Case.js
-│   │   ├── controllers/
-│   │   ├── routes/
-│   │   ├── utils/
-│   │   └── uploads/
-│   ├── package.json
-│   ├── .env
-│   └── README.md
-│
-└── frontend/
-    ├── src/
-    ├── index.html
-    ├── package.json
-    ├── vite.config.js
-    ├── tailwind.config.cjs
-    ├── postcss.config.cjs
-    └── README.md
-
 🛠️ Installation (Backend + Frontend)
 
 Clone the repository:
@@ -90,10 +65,10 @@ cd ai-judge
 
 🔧 1. Backend Setup
 Step 1 — Go to backend folder
-cd backend
+ - cd backend
 
 Step 2 — Install dependencies
-npm install
+ - npm install
 
 Step 3 — Add .env file
 
@@ -104,18 +79,18 @@ MONGO_URI=mongodb://127.0.0.1:27017/ai_judge
 GEMINI_API_KEY=your_google_api_key_here
 
 Step 4 — Run the backend
-npm run dev
+ - npm run dev
 
 
 
 🎨 2. Frontend Setup
 Step 1 — Open terminal and go to frontend folder
-cd frontend
+ - cd frontend
 
 Step 2 — Install dependencies
-npm install
+ - npm install
 
 Step 3 — Run the React app
-npm run dev
+ - npm run dev
 
 Youtube Link - https://youtu.be/NuVp11Kdz_w
