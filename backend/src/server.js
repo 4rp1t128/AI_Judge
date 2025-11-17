@@ -17,7 +17,7 @@ await connectDB();
 app.use("/api/upload", uploadRoutes);
 app.use("/api/cases", caseRoutes);
 
-// Serve uploaded files if needed
+
 app.use("/uploads", express.static(path.join(path.resolve(), "uploads")));
 
 const PORT = process.env.PORT || 5173;

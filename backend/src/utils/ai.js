@@ -13,7 +13,7 @@ export function getAIClient() {
     if (client) return client;
 
     if (!key) {
-        console.warn("❌ GEMINI_API_KEY not set. AI calls will fail.");
+        console.warn("GEMINI_API_KEY not set. AI calls will fail.");
         return null;
     }
 

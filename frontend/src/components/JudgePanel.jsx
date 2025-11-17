@@ -41,7 +41,7 @@ export default function JudgePanel() {
 
         setLoading(true);
         try {
-            // We'll append the follow-up as argument from Side A (for demo; UI could let you choose)
+            
             await axios.post("http://localhost:5173/api/cases/argument", {
                 caseId: currentCase._id,
                 side: "A",
