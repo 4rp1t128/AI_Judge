@@ -2,7 +2,6 @@
 
 A complete MERN application that simulates a mock court trial between two parties (Side A & Side B). Both sides upload documents and arguments, while the AI Judge (powered by Google Gemini 2.x) generates a verdict and allows up to 5 follow-up rounds.
 
-This project was built for the Vaquill SDE Internship Assignment.
 
 🚀 Features
 🟦 Frontend (React + Vite + Tailwind)
